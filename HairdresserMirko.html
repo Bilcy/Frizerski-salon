@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="frizerstvo, barvanje, striženje, mirko">
+
+  <title>Hairdresser Mirko</title>
+  <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+  <header class="container">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            Hairdresser Mirko
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about" data-toggle="modal" data-target="#myModal">O nas</a></li>
+            <li><a href="#services">Ponudba</a></li>
+            <li><a href="#appointment">Naroči se</a></li>
+            <li><a href="#faq">Pogosta vprašanja</a></li>
+            <form class="navbar-form navbar-right">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Iskalnik">
+              </div>
+              <button type="submit" class="btn btn-default">Išči</button>
+            </form>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="jumbotron">
+    <div class="container">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="https://i2.wp.com/www.afterimagesalon.com/wp-content/uploads/2015/07/header1.jpg?resize=1200%2C389" alt="hairdresser image 1">
+                </div>
+                <div class="item">
+                    <img src="https://www.number2thegreen.co.uk/wp-content/uploads/2017/09/n2g-1140x400.jpg" alt="image 2">
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Prejšnja</span></a>
+
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Naslednja</span></a>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="container">
+    <div class="container" id="services">
+      <h2 class="text-center"><span class="glyphicon glyphicon-th-large"></span> Ponudba</h2>
+      <br>
+      <div class="row">
+          <div class="col-md-4 text-center">
+              <h4><b><span class="glyphicon glyphicon-star-empty"></span> Nega las <span class="glyphicon glyphicon-star-empty"></span></b></h4>
+              <img src="http://bellanueskincare.com/clinic/wp-content/uploads/2015/07/Bellanue-Hair-Treatments.jpg" width="350px" height="200px">
+          </div>
+
+          <div class="col-md-4 text-center">
+              <h4><b><span class="glyphicon glyphicon-tint"></span> Barvanje <span class="glyphicon glyphicon-tint"></span></b></h4>
+              <img src="https://cactussalon.com/wp-content/uploads/2015/04/hair-coloring-Stony-Brook-NY.jpg" width="350px" height="200px">
+          </div>
+
+          <div class="col-md-4 text-center">
+              <h4><b><span class="glyphicon glyphicon-scissors"></span> Striženje <span class="glyphicon glyphicon-scissors"></span></b></h4>
+              <img src="http://timepass.com.pk/wp-content/uploads/2017/02/hair-cut.jpg" width="350px" height="200px">
+          </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container" id="appointment">
+      <h2 class="text-center"><span class="glyphicon glyphicon-hand-down"></span> Naroči se</h2>
+      <br>
+      <br>
+
+      <div class="row">
+          <div class="col-md-5 col-md-offset-1 form-group">
+              <input type="text" class="form-control" placeholder="Ime in priimek">
+              <br>
+              <input type="text" class="form-control" placeholder="Telefonska številka">
+              <br>
+              <input type="text" class="form-control" placeholder="Termin">
+              <br>
+              <textarea class="form-control" placeholder="Ostalo (želje glede pričeske itd.)" rows="5"></textarea>
+              <br>
+              <input type="checkbox"> <strong>Strinjam se,</strong> da je Mirko najboljši frizer. <button class="btn btn-primary pull-right">Pošlji</button>
+              <br>
+          </div>
+
+          <div class="col-md-4 col-md-offset-1">
+              <table class="table">
+                  <thead>
+                      <tr>
+                          <th>Dan</th>
+                          <th>Delovne ure</th>
+                      </tr>
+                  </thead>
+
+                  <tbody>
+                      <tr>
+                          <td>Ponedeljek</td>
+                          <td>08.00 - 16.00</td>
+                      </tr>
+
+                      <tr>
+                          <td>Torek</td>
+                          <td>10.00 - 18.00</td>
+                      </tr>
+
+                      <tr>
+                          <td>Sreda</td>
+                          <td>08.00 - 16.00</td>
+                      </tr>
+
+                      <tr>
+                          <td>Četrtek</td>
+                          <td>08.00 - 16.00</td>
+                      </tr>
+
+                      <tr>
+                          <td>Petek</td>
+                          <td>12.00 - 20.00</td>
+                      </tr>
+
+                      <tr>
+                          <td><i>Sobota</i></td>
+                          <td><i>08.00 - 16.00</i></td>
+                      </tr>
+
+                      <tr>
+                          <td><i>Nedelja</i></td>
+                          <td><i>08.00 - 12.00</i></td>
+                      </tr>
+                  </tbody>
+              </table>
+              <p>* Ob praznikih velja <i>nedeljski</i> urnik.</p>
+          </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container" id="faq">
+      <h2 class="text-center"><span class="glyphicon glyphicon-th-list"></span> Pogosta vprašanja</h2>
+      <br>
+
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-info">
+              <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><strong>
+                      Kakšen je salon in ekipa?</strong>
+                      </a>
+                  </h4>
+              </div>
+
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                  Salon je prostoren in domač. V njem delajo prijazne in sposobne frizerke, ki oblikujejo pričeske z občutkom in domišljijo.
+                  <br>
+                  <br>
+                  Smo relativno mlad kolektiv, vedno nasmejani in prijazni. Imamo dolgoletne izkušnje s profesionalno lasno kozmetiko Schwarzkopf. V dogovoru z dolgoletnim partnerjem Hair Beauty d.o.o. smo letos septembra začeli delati s profesionalno lasno kozmetiko Indola, katero tudi distributirajo.
+                  </div>
+              </div>
+          </div>
+
+          <div class="panel panel-info">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>
+                      Ali sprejemate hišne ljubljenčke?</strong>
+                      </a>
+                  </h4>
+              </div>
+
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                  Pri nas je dobrodošel vsak. Cenjene stranke vljudno prosimo, da v kolikor pripeljejo svoje ljubljenčke, naj poskrbijo, da bo naše delo potekalo nemoteno.
+                  </div>
+              </div>
+          </div>
+
+          <div class="panel panel-info">
+              <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><strong>
+                      Imate kakšne nagrade s tekmovanj?</strong>
+                      </a>
+                  </h4>
+
+              </div>
+
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                  Seveda. Vsa dosežena priznanja s ponosom krasijo stene našega salona. Vljudno vabljeni.
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+    <hr>
+
+  <footer class="container">
+      <div class="row">
+          <div class="col-md-4 col-md-offset-1">
+              <h3>Kontakt</h3>
+
+              <p><span class="glyphicon glyphicon-user"></span> Frizer Mirko s.p.</p>
+              <p><span class="glyphicon glyphicon-map-marker"></span> Frizerska ulica 5, 1000 Ljubljana</p>
+              <p><span class="glyphicon glyphicon-tag"></span> DŠ: 324324234</p>
+              <p><span class="glyphicon glyphicon-earphone"></span> 01/345-43-53</p>
+              <p><span class="glyphicon glyphicon-envelope"></span> frizer.mirko@f-mirko.com</p>
+              <br>
+              <br>
+              <br>
+              <br>
+          </div>
+
+          <div class="col-md-4">
+              <img class="img-responsive" width="200px" src="https://www.dottormanola.com/wp-content/uploads/2016/10/mirko-manola-chirurgo-plastico-milano-300x235.png">
+              <br>
+
+          </div>
+
+          <div class="col-md-3">
+              <h3>Navigacija</h3>
+              <p><a href="#about" data-toggle="modal" data-target="#myModal">O nas</a></p>
+              <p><a href="#services">Ponudba</a></p>
+              <p><a href="#appointment">Naroči se</a></p>
+              <p><a href="#faq">Pogosta vprašanja</a></p>
+          </div>
+      </div>
+  </footer>
+
+  <bottom>
+    <div id="bottom">
+      <section class="container">
+        <span>&copy; 2017 Hairdresser Mirko </span><span class="glyphicon glyphicon-grain"></span> Produkcija: BiRa d.o.o.</span>
+      </div>
+    </div>
+  </bottom>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">O nas</h4>
+              </div>
+
+              <div class="modal-body">
+                  Smo relativno mlad kolektiv, vedno nasmejani in prijazni. Imamo dolgoletne izkušnje s profesionalno lasno kozmetiko Schwarzkopf. V dogovoru z dolgoletetnim partnerjem Hair Beauty d.o.o. smo letos septembra začeli delati s profesionalno lasno kozmetiko Indola, katero tudi distributirajo.
+
+                  <br>
+                  <br>
+
+                  Salon je prostoren in domač. V njem delajo prijazne in sposobne frizerke, ki oblikujejo pričeske z občutkom in domišljijo.
+
+                  <br>
+                  <br>
+
+                  Pri nas je dobrodošel vsak. Prepričani smo, da bomo želji vsakega posameznika lahko ustregli v našem delovnem času. Pravijo, da ni pomembna dolžina las, temveč šteje le urejena pričeska.
+
+                  <br>
+                  <br>
+
+                  <img width="" class="img-responsive" src="https://i2.wp.com/www.afterimagesalon.com/wp-content/uploads/2015/07/header1.jpg?resize=1200%2C389" alt="hairdresser image 1">
+              </div>
+
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Zapri</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- END About Modal -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
